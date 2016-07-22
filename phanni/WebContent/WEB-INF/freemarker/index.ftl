@@ -6,10 +6,10 @@
     
     <!-- Title Tag -->
     <link rel="icon" type="image/png" href="./resource/icons/tittle.ico" />
-    <title>Phanni</title>
+    <title>Funi</title>
 <!--
 
-Phanni Template
+Funi Template
 
 
 -->
@@ -30,47 +30,7 @@ Phanni Template
 <div class="DesignHolder">
 	<!-- \\ Begin Frame \\ -->
 	<div class="LayoutFrame">
-        <!-- \\ Begin Header \\ -->
-        <header>
-            <div class="Center">
-                <div class="site-logo">
-                	<h1><a href="#">PHANNI&nbsp;<span>STUDIO</span></a></h1>
-                </div>
-               <div id="mobile_sec">
-               <div class="mobile"><i class="fa fa-bars"></i><i class="fa fa-times"></i></div>
-                <div class="menumobile">
-                    <!-- \\ Begin Navigation \\ -->
-                    <nav class="Navigation">
-                        <ul>
-                            <li class="active">                                
-                                <a href="#home">Home</a>
-                                <span class="menu-item-bg"></span>
-                            </li>
-                            <li>
-                                <a href="#about">About</a>
-                                <span class="menu-item-bg"></span>
-                            </li>
-                            <li>
-                                <a href="#services">Services</a>
-                                <span class="menu-item-bg"></span>
-                            </li>
-                            <li>
-                                <a href="#pricing">Pricing</a>
-                                <span class="menu-item-bg"></span>
-                            </li>
-                            <li>
-                                <a href="#contact">Contact</a>
-                                <span class="menu-item-bg"></span>
-                            </li>
-                        </ul>
-                    </nav>
-                    <!-- // End Navigation // -->
-				</div>
-				</div>
-                <div class="clear"></div>
-            </div>
-        </header>
-        <!-- // End Header // -->
+        <#include "./main/header.ftl">
         <!-- \\ Begin Banner Section \\ -->
         <div class="Banner_sec" id="home">
             <!--  \\ Begin banner Side -->
@@ -356,13 +316,8 @@ Phanni Template
                         </div>
                         <!-- // End Right Side // -->
                     </div>
-                    <!-- \\ Begin Footer \\-->
-                    <footer>
-                        <div class="Cntr">                
-                            <p>COPYRIGHT © 2084 COMPANY NAME. DESIGN: <a rel="nofollow" href="http://www.templatemo.com" target="_parent">TEMPLATEMO</a></p>
-                        </div>
-                    </footer>
-                    <!-- // End Footer // -->
+                           <#include "./main/footer.ftl">
+
                 </div>
                 <!-- // End Get Section // -->
             
